@@ -8,13 +8,14 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class RakutenDevopsJenkinsApplication {
-
+	
 	public static void main(String[] args) {
 		SpringApplication.run(RakutenDevopsJenkinsApplication.class, args);
 	}
-
+	
 	@GetMapping
 	public String getMessage() {
-		return "Rakuten India welcomes you IN jAPAN";
+		return "Rakuten India welcomes you....";
 	}
+	
 }
