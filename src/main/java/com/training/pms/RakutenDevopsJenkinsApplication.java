@@ -15,7 +15,7 @@ public class RakutenDevopsJenkinsApplication {
 	
 	@GetMapping
 	public String getMessage() {
-		return "Hi Rakuten India welcomes you";
+		return "Hi aRakuten India welcomes you";
 	}	
 	
 	@GetMapping("rakuten")
