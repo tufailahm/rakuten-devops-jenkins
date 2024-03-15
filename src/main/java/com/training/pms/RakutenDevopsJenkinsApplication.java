@@ -15,16 +15,16 @@ public class RakutenDevopsJenkinsApplication {
 	
 	@GetMapping
 	public String getMessage() {
-		return "Rakuten India welcomes you..asdasdasd.....,.,.....";
+		return "Rakuten India welcomes you";
 	}	
 	
 	@GetMapping("rakuten")
 	public String getRakuten() {
-		return "Rakuten India welcomes you.......,.,.....";
+		return "Rakuten Japan welcomes you.......,.,.....";
 	}	
 	
 	@GetMapping("rakutennew")
 	public String getRakuten2() {
-		return "Rakuten India welcomes you.......,.,.....";
+		return "New Rakuten India welcomes you.......,.,.....";
 	}
 }
