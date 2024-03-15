@@ -10,7 +10,7 @@ class RakutenDevopsJenkinsApplicationTests {
 
 	@Test
 	void contextLoads() {
-		fail("I will not work in your company");
+		
 	}
 
 }
