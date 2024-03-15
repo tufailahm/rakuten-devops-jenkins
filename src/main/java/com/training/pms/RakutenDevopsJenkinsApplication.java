@@ -22,4 +22,9 @@ public class RakutenDevopsJenkinsApplication {
 	public String getRakuten() {
 		return "Rakuten India welcomes you.......,.,.....";
 	}	
+	
+	@GetMapping("rakuten")
+	public String getRakuten2() {
+		return "Rakuten India welcomes you.......,.,.....";
+	}
 }
